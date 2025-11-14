@@ -1,4 +1,10 @@
+import { LoginComponent } from "@/components/Login";
+
 const Login = () => {
-  return <div>Login</div>;
+  return (
+    <div>
+      <LoginComponent />
+    </div>
+  );
 };
 export default Login;
