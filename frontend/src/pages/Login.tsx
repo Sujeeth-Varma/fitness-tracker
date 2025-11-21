@@ -2,7 +2,7 @@ import { LoginComponent } from "@/components/Login";
 
 const Login = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center min-h-screen">
       <LoginComponent />
     </div>
   );
